@@ -1,0 +1,18 @@
+Se tiene un restaurante que prepara pizzas, cada una con atributos comunes: ingredientes, tipoMasa, tipoQueso
+
+Se tiene distintos tipos de pizzas
+
+* Pizza Carnivora
+  ingredientes: carne, salsa de tomate, tocino, chorizo
+  tipoMasa: masa Especial
+  tipoQueso: queso Mozzarella
+
+* Pizza Hawaiana
+  ingredientes: jamón, salsa de tomate, piña, cherry
+  tipoMasa: masa normal
+  tipoQueso: queso Provolone
+
+* Pizza Clásica
+  ingredientes: jamón, salsa de tomate
+  tipoMasa: masa Especial
+  tipoQueso: doble queso Mozzarella

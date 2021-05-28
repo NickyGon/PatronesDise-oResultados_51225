@@ -1,0 +1,8 @@
+tenemos una operacion aritmetica con sumas y restas. Se debe interpretar para obtener el resultado de la operacion
+
+1 + 2 + 3 + -3 + 5 ---> 8
+
+
+numeros
+simboloSuma
+simboloResta

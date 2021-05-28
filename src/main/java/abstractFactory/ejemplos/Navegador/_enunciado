@@ -1,0 +1,4 @@
+Se tiene un cliente que necesita manejar diferentes tipos de navegadores
+(Firefox, Chrome, Edge, Safari, y otros que vayan apareciendo), el cliente necesita abrir una pagina web y verificar
+que el navegador esté abierto correctamente.
+

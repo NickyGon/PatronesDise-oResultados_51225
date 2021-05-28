@@ -1,0 +1,30 @@
+Una dispensadora de helados realiza distintos tipos de helados como ser:
+
+Helado de agua
+Helado de crema
+Helado mixto
+
+cada helado tiene una forma de preparar e ingredientes especificos
+
+helado de Agua
+ tamano
+ forma
+ fruta (tipoFruta,nombreFruta,costoFruta,tamaño)
+ base (nombre,tamaño,tipo,costo)
+
+helado de crema
+ tamaño
+ forma
+ fruta (tipoFruta,nombreFruta,costoFruta,tamaño)
+ base (nombre,tamaño,tipo,costo)
+ crema (sabor, costo, marca)
+
+helados mixtos
+ tamaño
+ forma
+ fruta (tipoFruta,nombreFruta,costoFruta,tamaño)
+ base (nombre,tamaño,tipo,costo)
+ crema (sabor, costo, marca)
+ costo
+
+crear 3 objetos de cada tipo de helado. Total: 9

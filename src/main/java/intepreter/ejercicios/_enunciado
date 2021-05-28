@@ -1,0 +1,10 @@
+Se tiene una expresion que se escribe en numeros naturales (1 -- 10)
+Se quiere interpretar estos en numeros romanos
+
+
+1 2 3 4 5 6 7 8 9 10
+
+i ii iii iv v vi vii viii ix x
+
+------------
+i-v-x= 3 simbolos
