@@ -1,10 +1,11 @@
-package ejercicios.Iterator;
+package ejercicios.IteratorOficial;
 
-public class IteratorArrayList implements Iterator{
-    private Empleado [] nombres;
+
+public class IteratorJalasoft implements Iterator {
+    private Empleado[] nombres;
     private int position;
 
-    public IteratorArrayList(Empleado[] nombres) {
+    public IteratorJalasoft(Empleado[] nombres) {
         this.nombres=nombres;
     }
 

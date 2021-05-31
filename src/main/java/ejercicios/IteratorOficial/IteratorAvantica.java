@@ -1,12 +1,12 @@
-package ejercicios.Iterator;
+package ejercicios.IteratorOficial;
 
-import java.util.List;
 
-public class IteratorListList implements Iterator{
-    private List<Empleado> nombres;
+import java.util.Vector;
+
+public class IteratorAvantica implements Iterator {
+    private Vector<Empleado> nombres;
     private int position;
-
-    public IteratorListList(List<Empleado> nombres) {
+    public IteratorAvantica(Vector<Empleado> nombres){
         this.nombres=nombres;
         this.position=0;
     }

@@ -30,7 +30,7 @@ public class Client {
         Empleado e20=new Empleado("Peter");
 
 
-        Map<String,Object> empleadoMap=new HashMap<String,Object>();
+        Map<String,Empleado> empleadoMap=new HashMap<String,Empleado>();
 
         ListList listA=new ListList();
         listA.add(e1);
@@ -64,46 +64,43 @@ public class Client {
         System.out.println("Lista de Empleados");
         Iterator iterator=listA.iterator();
         while (iterator.hasNext()){
-            Object o=iterator.next();
+            Empleado o=(Empleado)
+                    iterator.next();
             empleadoMap.put(Integer.toString(counter++),o);
             System.out.println("Nombre: "+o);
         }
 
         System.out.println("Array de Empleados");
-        Iterator iterator2=listB.iterator();
-        while (iterator2.hasNext()){
-            Object o=iterator2.next();
+        iterator=listB.iterator();
+        while (iterator.hasNext()){
+            Empleado o=(Empleado)
+                    iterator.next();
             empleadoMap.put(Integer.toString(counter++),o);
             System.out.println("Nombre: "+o);
         }
 
         System.out.println("Vector de Empleados");
-        Iterator iterator3=listC.iterator();
-        while (iterator3.hasNext()){
-            Object o=iterator3.next();
+        iterator=listC.iterator();
+        while (iterator.hasNext()){
+            Empleado o=(Empleado)
+                    iterator.next();
             empleadoMap.put(Integer.toString(counter++),o);
             System.out.println("Nombre: "+o);
         }
 
         System.out.println("Stack de Empleados");
-        Iterator iterator4=listD.iterator();
-        while (iterator4.hasNext()){
-            Object o=iterator4.next();
+        iterator =listD.iterator();
+        while (iterator.hasNext()){
+            Empleado o=(Empleado)
+                    iterator.next();
             empleadoMap.put(Integer.toString(counter++),o);
             System.out.println("Nombre: "+o);
         }
 
         System.out.println("Hash Map de Empleados");
-        Map<String,Object> sort=new TreeMap<>(new Comparator<String>() {
-            @Override
-            public int compare(String o1, String o2) {
-                int difference= Integer.parseInt(o1)-Integer.parseInt(o2);
-                if (difference!=0) return difference;
-                return o1.compareTo(o2);
-            }
-        });
-        sort.putAll(empleadoMap);
-        sort.entrySet().forEach(System.out::println);
+        for(String s:empleadoMap.keySet()){
+            System.out.println(empleadoMap.get(s).getNombre());
+        }
 
     }
 }

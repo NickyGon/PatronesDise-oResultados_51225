@@ -1,12 +1,13 @@
-package ejercicios.Iterator;
+package ejercicios.IteratorOficial;
+
 
 import java.util.List;
 
-public class IteratorListList implements Iterator{
+public class IteratorMojix implements Iterator {
     private List<Empleado> nombres;
     private int position;
 
-    public IteratorListList(List<Empleado> nombres) {
+    public IteratorMojix(List<Empleado> nombres) {
         this.nombres=nombres;
         this.position=0;
     }

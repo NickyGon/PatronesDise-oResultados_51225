@@ -12,7 +12,7 @@ public class IteratorVectorList implements Iterator {
 
     @Override
     public Object next() {
-        return this.nombres.get(position++).getNombre();
+        return this.nombres.get(position++);
     }
 
     @Override

@@ -1,12 +1,13 @@
-package ejercicios.Iterator;
+package ejercicios.IteratorOficial;
+
 
 import java.util.Stack;
 
-public class IteratorStackList implements Iterator{
+public class IteratorTruextend implements Iterator {
     private Stack<Empleado> nombres;
     private int position;
 
-    public IteratorStackList(Stack<Empleado> nombres) {
+    public IteratorTruextend(Stack<Empleado> nombres) {
         this.nombres=nombres;
         position=0;
     }
