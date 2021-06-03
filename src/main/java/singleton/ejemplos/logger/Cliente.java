@@ -22,6 +22,7 @@ public class Cliente {
         estudiante1.setCarrera("Derecho");
         estudiante1.setSemestre("9");
 
+
         estudiante1.getCarrera();
         estudiante1.getSemestre();
         docente1.getMateria();

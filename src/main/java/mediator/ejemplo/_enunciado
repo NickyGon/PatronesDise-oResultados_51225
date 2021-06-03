@@ -1,0 +1,7 @@
+Se tiene un canal de cpmunicacion SLACK, este canal es empresarial donde existen QA, DEV, SM (Scrum master)
+Cuando un QA envia un mesaje envia a todos los QA registrados
+Cuando un SM envia un mesaje envia a todos los que esten registrados QA/DEV/SM
+Cuando un DEV envia un mesaje envia a todos los DEV
+
+
+- nota: asegurarse que la persona que envia el mensaje no reciba su propio mensaje

@@ -12,5 +12,8 @@ public class Client {
         colegioSimonBolivar.pagarMatricula(50,new Estudiante("004","Juan4"));
         colegioSimonBolivar.pagarMatricula(50,new Estudiante("005","Juan5"));
 
+
+
+
     }
 }
