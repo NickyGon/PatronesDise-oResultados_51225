@@ -16,7 +16,7 @@ public class DEV extends Colleague{
 
     @Override
     public void messageReceived(String message) {
-        System.out.println("INFO - Mensaje recibido por DEV "+nombre+"("+CI+") con lenguaje dominado: "+lenguaje+": "+message);
+        System.out.println("INFO - Mensaje recibido por DEV "+nombre+"("+CI+") con lenguaje dominado "+lenguaje+": "+message);
     }
 
     public String getNombre() {
