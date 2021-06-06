@@ -16,7 +16,7 @@ public class SM extends Colleague{
 
     @Override
     public void messageReceived(String message) {
-        System.out.println("INFO - Mensaje recibido por SM "+nombre+"("+CI+") con certificaciones: "+listCerti(certificaciones)+": "+message);
+        System.out.println("INFO - Mensaje recibido por SM "+nombre+"("+CI+") con certificaciones "+listCerti(certificaciones)+": "+message);
     }
 
     private String listCerti(String[] certificaciones) {
@@ -25,7 +25,7 @@ public class SM extends Colleague{
         for (String c: certificaciones){
             result=result+c;
             cont++;
-            if (cont==certificaciones.length-1 && cont<certificaciones.length)
+            if (cont<certificaciones.length)
                 result=result+", ";
         }
         return result;

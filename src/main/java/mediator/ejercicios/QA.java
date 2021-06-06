@@ -3,7 +3,7 @@ package mediator.ejercicios;
 public class QA extends Colleague{
     private String nombre;
     private int CI;
-    private String grado;
+    private int grado;
 
     public QA(iCanalDeComunicacion mediator) {
         super(mediator);
@@ -16,7 +16,7 @@ public class QA extends Colleague{
 
     @Override
     public void messageReceived(String message) {
-        System.out.println("INFO - Mensaje recibido por QA "+nombre+"("+CI+") con grado: "+grado+": "+message);
+        System.out.println("INFO - Mensaje recibido por QA "+nombre+"("+CI+") con grado "+grado+": "+message);
     }
 
     public String getNombre() {
@@ -35,11 +35,11 @@ public class QA extends Colleague{
         this.CI = CI;
     }
 
-    public String getGrado() {
+    public int getGrado() {
         return grado;
     }
 
-    public void setGrado(String grado) {
+    public void setGrado(int grado) {
         this.grado = grado;
     }
 }

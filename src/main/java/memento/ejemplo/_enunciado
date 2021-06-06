@@ -1,0 +1,11 @@
+Un repositorio en Github almacena los cambios de un proyecto desarrollado en Java. Los desarrolladores quieren versionar
+los cambios de las historias de usuario cuando estan terminadas, no de cada commit.
+
+- 6 commits donde el 2do y 5to commits son los referentes a las historias terminadas
+
+utilizar el formato de commits de github
+
+-caretaker --> Github
+-codigo ---> ConcreteObject
+        -lineas codigo
+        -isCompleteStory

@@ -29,15 +29,15 @@ public class Client {
         dev3.setCI(11118032);
 
 
-        qa1.setGrado("A");
+        qa1.setGrado(1);
         qa1.setNombre("Maria Polino");
         qa1.setCI(11113344);
 
-        qa2.setGrado("B");
+        qa2.setGrado(2);
         qa2.setNombre("Shaun Loine");
         qa2.setCI(11115353);
 
-        qa3.setGrado("B");
+        qa3.setGrado(3);
         qa3.setNombre("Maine Stilwell");
         qa3.setCI(11115306);
 
@@ -48,12 +48,12 @@ public class Client {
         sm1.setCI(11110911);
 
         String[] array1={"CSP-SM","CSM","PSM"};
-        sm2.setCertificaciones(array);
+        sm2.setCertificaciones(array1);
         sm2.setNombre("Shellby Jordan");
         sm2.setCI(11118411);
 
         String[] array2={"PSM III"};
-        sm3.setCertificaciones(array);
+        sm3.setCertificaciones(array2);
         sm3.setNombre("Manuela Montero");
         sm3.setCI(11112710);
 
