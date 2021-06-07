@@ -1,0 +1,11 @@
+Se tiene una persona que quiere adquirir un prestamo bancario bastante alto en el banco PRESTAMO con una serie de
+restricciones para emitir los prestamos.
+
+el agente de credito de la sucursal puede aprobar prestamos máximos de 5000bs
+el supervisor de credtos puede aprobar prestamos maximos de 10000bs
+el supervisor departamental puede aprobar montos de hasta 200000
+Sino, debe ser aprobado por el concejo de presidentes
+
+Ihandler-->AgentesCreditos
+Concrete--->Agentes/Supervisor/Presidentes
+ConcreteManager--->Prestamo
