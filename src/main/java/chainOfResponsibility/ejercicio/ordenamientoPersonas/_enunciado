@@ -1,0 +1,8 @@
+(Cadena Responsabilidad) Se tiene un array[] que contiene personas(ci, nombre, edad), se tienen 3 algoritmos de ordenamiento para poder ordenar las personas ascendentemente por edad,
+dependiendo a la cantidad de datos en el array se desea utilizar uno de los algoritmos.
+
+arrays con un máximo de 20 personas usar algoritmo1
+arrays con un máximo de 50 personas usar algoritmo2
+arrays con más de 50 personas usar el algoritmo3
+
+imprimir los arrays ya ordenados.
