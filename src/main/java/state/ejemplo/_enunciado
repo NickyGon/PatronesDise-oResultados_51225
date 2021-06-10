@@ -1,0 +1,10 @@
+Se tiene una computadora que sufre cambios en su comportamiento en sus accesorios internos dependiendo del estado
+que se encuentra
+
+Computadora prendida y minando criptos (tarjeta de video se utiliza e incrementa en un 5% cada 5 seg)
+Computadora prendida y navegando en Chrome (memoria ram se utiliza en porcentaje randomico y puede llegar al 100%)
+Computadora apagada (no se usa ningun accesorio y estos tienen un valor de 0%)
+
+Contexto--->Computadora
+Istate--->iEstadoComputadora
+ConcreteState---> PrendidoMinando/PrendidoPrograma/Apagado
