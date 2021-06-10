@@ -1,15 +1,13 @@
-package state.ejercicio;
+package state.ejercicio.versionMejorada;
 
-import java.util.Random;
 
-public class Apagado implements iEstadoComputadora{
+public class Reiniciando implements iEstadoComputadora {
     private int enabledPrograms=0;
-
     @Override
     public void handler(Computadora computadora) {
-        System.out.println("APAGANDO");
-        computadora.setConsumoEnRAM(new Random().nextInt(20));
-        computadora.setConsumoEnCPU(new Random().nextInt(20));
+        System.out.println("REINICIANDO");
+        computadora.setConsumoEnRAM(0);
+        computadora.setConsumoEnCPU(0);
         System.out.println("Programas abiertos: "+enabledPrograms);
         System.out.println("Consumo en RAM: "+computadora.getConsumoEnRAM()+"%");
         System.out.println("Consumo en CPU: "+computadora.getConsumoEnCPU()+"%");

@@ -1,8 +1,9 @@
-package state.ejercicio;
+package state.ejercicio.versionMejorada;
+
 
 import java.util.Random;
 
-public class Apagado implements iEstadoComputadora{
+public class Apagado implements iEstadoComputadora {
     private int enabledPrograms=0;
 
     @Override

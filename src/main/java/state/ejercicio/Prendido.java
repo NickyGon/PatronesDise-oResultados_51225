@@ -8,7 +8,7 @@ public class Prendido implements iEstadoComputadora{
     public void handler(Computadora computadora) {
         System.out.println("ENCENDIENDO");
 
-        enabledPrograms=new Random().nextInt(computadora.getProgramas().length);
+        enabledPrograms=computadora.getProgramas().length-4;
 
         computadora.setConsumoEnCPU(computadora.getConsumoEnCPU()+(5*enabledPrograms));
         computadora.setConsumoEnRAM(computadora.getConsumoEnRAM()+(5*enabledPrograms));

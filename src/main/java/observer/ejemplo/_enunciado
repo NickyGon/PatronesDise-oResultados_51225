@@ -1,0 +1,11 @@
+Cuando una persona se registra a una cuenta de youtube, tiene la capacidad de suscribirse a uno o varios canales, el
+objetivo de suscribirse es que lleguen notificaciones a estos usuarios de youtube cuando un nuevo video es agregado
+al canal, los usuarios pueden definir la notificación dependiendo la categoria de video que seleccionen
+
+- Iobserver ---Usuario
+- Isubject ---Canal
+- SubjectConcrete ---CanalDeYoutube (videos)
+- ObserverConcrete ---- UsuarioRegistrado  (Personas, categoria)
+
+Persona (ci,nombre)
+video (titulo,categoria)

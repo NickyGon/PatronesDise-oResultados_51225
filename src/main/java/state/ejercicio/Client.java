@@ -5,7 +5,7 @@ public class Client {
         iEstadoComputadora state1= new Apagado();
         Computadora computadora=new Computadora();
 
-        String[] program={"i","p","Nixon","Word","Nino","YouTube","i","p","Nixon","Word","Nino","YouTube","i","p","Nixon","Word","Nino","YouTube","Nina","Steam","Powerpoint","Point","i","r","p","T","e"};
+        String[] program={"Nixon","Word","Nino","YouTube","i","p","Nixon","Word","Nino","YouTube","i","p","Nixon","Word","Nino","YouTube","Nina","Steam","Powerpoint","Point"};
 
         computadora.setProgramas(program);
         computadora.setState(state1);
