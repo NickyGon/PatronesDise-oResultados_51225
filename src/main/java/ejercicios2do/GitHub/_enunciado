@@ -5,3 +5,10 @@ recibir notificaciones cuando se vuelve/restaura un commit específico. - adicio
 mínimamente 3 desarrolladores suscritos al repositorio - tener 5 commits en el
 repositorio y volver al primer commit (commit 1) - eliminar a los 3 desarrolladores y
 adicionar otros 3 nuevos desarrolladores - volver al último commit (commit 5)
+
+
+iObserver--->iDesarrollador
+iSubject--->iGithub
+ConcreteObserver--->Desarrollador(Persona,cloneTime)
+ConcreteSubject+Caretaker--->Github(maneja Codigo (memento) y Personas(observer))
+Originator--->Git

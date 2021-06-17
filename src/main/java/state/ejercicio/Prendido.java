@@ -6,7 +6,7 @@ public class Prendido implements iEstadoComputadora{
     private int enabledPrograms=0;
     @Override
     public void handler(Computadora computadora) {
-        System.out.println("ENCENDIENDO");
+        System.out.println("PRENDIENDO");
 
         enabledPrograms=computadora.getProgramas().length-4;
 

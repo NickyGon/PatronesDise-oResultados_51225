@@ -30,7 +30,6 @@ public class AlgoritmoMayor implements iAlgoritmo{
                     listaCelular.get(ultimo).info();
                 }
             }
-
             primero++;
             ultimo--;
         }

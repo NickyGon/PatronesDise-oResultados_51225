@@ -17,6 +17,6 @@ public class Client {
         banco.pagarPrestamo(150,cuenta);
         banco.pagarPrestamo(200,cuenta);
         banco.pagarPrestamo(300,cuenta);
-        banco.pagarPrestamo(500,cuenta);
+        banco.pagarPrestamo(200,cuenta);
     }
 }

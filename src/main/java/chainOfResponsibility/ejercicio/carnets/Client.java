@@ -8,7 +8,7 @@ import java.util.GregorianCalendar;
 public class Client {
     public static void main(String[]args){
         SEGIP segip=new SEGIP();
-        Calendar calendario=new GregorianCalendar(2000,4,29);
+        Calendar calendario=new GregorianCalendar(2000,Calendar.APRIL,29);
         Date date=calendario.getTime();
         segip.realizarCarnetizacion(new PersonaRequisitos("Nicole Patricia Góngora Rodríguez",21,"La Paz",date,true,150,1));
         calendario.set(1990,5,30);
