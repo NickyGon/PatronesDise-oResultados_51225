@@ -1,0 +1,16 @@
+Se tiene una empresa de automoviles donde los autos funcionan con gasolina, gasolina especial y diesel. Esta empresa
+tiene direfentes acciones para sus automoviles donde al momento de prender se ve el tanque de combustible, cuando
+empieza a estar en marcha este va rebajando en 5 unidades cada 5 segundos, y cuando está cargando combustible este se
+incrementa.
+
+iAutomovil--Diesel/Gasolina especial/Gasolina
+
+Esta empresa decide comprar otra empresa de automoviles mas pequeña. La empresa B construye autos, motocicletas,
+cuadratracks electricos y estos cuando se prenden revisamos la bateria, cuando esta en marcha la bateria se descarga en
+2 unidades cada 5 segundos, y cuando esta cargando deben estar apagados y la bateria nos muestra su estado adicional
+al tiempo de vida de la bateria
+
+
+iElectricos -- AutomovilE/MotocicletaE/QuadratrackE
+
+la empresa grande quiere manejar todos los automoviles como si fueran de una misma familia de objetos
