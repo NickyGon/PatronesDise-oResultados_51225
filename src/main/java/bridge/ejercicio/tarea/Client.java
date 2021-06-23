@@ -16,14 +16,8 @@ public class Client {
         iEmpresas SRL= new EmpresaSRL("Woof Pack",tierra);
         SRL.enviarPaquete(paquete2);
 
-        iEmpresas SA1= new EmpresaSRL("Madepa",aire);
+        iEmpresas SA1= new EmpresaSA("Madepa",aire);
         SA1.enviarPaquete(paquete3);
-
-
-
-
-
-
 
     }
 }
