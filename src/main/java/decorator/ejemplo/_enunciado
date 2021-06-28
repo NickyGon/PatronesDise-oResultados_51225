@@ -1,0 +1,12 @@
+Se tienen distintos IDE de programacion: Intellij IDEA y Ecplise. Estos tienen (precio, licencia, tamaño)
+Una empresa crea plugins para estos IDEs (unos son gratuitos y otros con costo). El ide puede instalar y agregar la
+funcionalidad de los plugins cuando se necesite.
+
+-pluginTest
+-pluginDeploy
+-pluginDebug
+
+Component--->IDE
+ConcreteComponent--->IntelliJ/Ecplise
+Decorator--->Plugin
+ConcreteDecorator--->-pluginTest/pluginDeploy/pluginDebug

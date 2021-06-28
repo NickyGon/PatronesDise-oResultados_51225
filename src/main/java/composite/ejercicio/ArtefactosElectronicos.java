@@ -9,6 +9,7 @@ public abstract class ArtefactosElectronicos {
     public ArtefactosElectronicos(String nombre){
         this.nombreGrupo=nombre;
     }
+
     public ArtefactosElectronicos(String marca, String modelo) {
         this.marca = marca;
         this.modelo = modelo;

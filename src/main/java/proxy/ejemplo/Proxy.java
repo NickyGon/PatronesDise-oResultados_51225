@@ -1,11 +1,13 @@
 package proxy.ejemplo;
 
 
+
 public class Proxy implements iServidor{
     private FileServer datosServer= new FileServer("10.10.10.10","8080","datosreales");
     private FileServer datosNoPermitdos = new FileServer("192.168.1.1","8080","datosNoPermitidos");
     private String ip;
     private String port;
+
 
     public Proxy(String ip, String port) {
         this.ip = ip;
