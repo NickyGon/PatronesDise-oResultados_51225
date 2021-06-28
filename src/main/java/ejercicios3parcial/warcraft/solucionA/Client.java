@@ -9,7 +9,7 @@ public class Client {
     public static void main(String[]args){
         List<Armas> list= new ArrayList<>();
         list.add(Armas.ESCOPETA);
-        Entidad personaje= new Personaje("Nicole",200,list,10000,40000,30000,20000);
+        Entidad personaje= new Personaje("Nicole",200,list,10000,10000,10000,10000);
         personaje= new AddShield(personaje);
         personaje= new AddPotion(personaje);
         personaje= new AddWeapon(personaje,Armas.ESPADA);
